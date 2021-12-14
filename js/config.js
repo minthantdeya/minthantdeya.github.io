@@ -1,10 +1,14 @@
 let site_detail = {
-    'site_name': 'Deya',
-    'tagline': 'A site script for static website with dynamic data',
-    'site_home': 'https://minthantdeya.github.io',
-    'blog_home': 'https://minthantdeya.github.io/itscookiechannel',
-    'products': 'products.html'
+    'site_name': {
+        'tc': 'MinthantDeya',
+        'url': 'https://minthantdeya.github.io'
+    },
+    'site_home': {
+        'tc': 'Home',
+        'url': 'https://minthantdeya.github.io/itscookiechannel'
+    },
+    'products': {
+        'tc': 'Our Products',
+        'url': 'https://minthantdeya.github.io/itscookiechannel/products/index.html'
+    }
 }
-
-export {site_detail}
-
